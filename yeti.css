@@ -104,6 +104,7 @@ h3, .navbar {
   background-size: cover;
   color: #fff;
   padding: 10% 1%;
+  overflow: hidden;
   transition: all 2s ease;
 }
 
