@@ -14,4 +14,10 @@ $(document).ready(function(){
             scrollTop: $(target).offset().top
         }, 1000); 
     });
+
+    $(".room-thumb").on('click', function(){
+        var url = $(this).attr("id");
+        $('#room').removeClass();
+        $('#room').addClass(url);        
+    });
 });
