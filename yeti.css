@@ -2,13 +2,7 @@ html, body {margin:0;padding:0;height:100%}
 
 body {
   position: relative;
-  background: -moz-linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(254,254,254,1) 50%, rgba(239,239,239,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(239,239,239,1)), color-stop(50%, rgba(254,254,254,1)), color-stop(100%, rgba(239,239,239,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(254,254,254,1) 50%, rgba(239,239,239,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(254,254,254,1) 50%, rgba(239,239,239,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(254,254,254,1) 50%, rgba(239,239,239,1) 100%); /* ie10+ */
-  background: linear-gradient(90deg, rgba(239,239,239,1) 0%, rgba(254,254,254,1) 50%, rgba(239,239,239,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#efefef',GradientType=1 ); /* ie6-9 */
+  background: url('./images/bg.png');
 }
 
 h1, h2 {
@@ -16,7 +10,7 @@ h1, h2 {
 }
 
 h3, .navbar {
-  font-family: 'Allura';font-size: 22px;
+  font-family: 'Allan';font-size: 22px;
 }
 
 .logo {
@@ -43,7 +37,7 @@ h3, .navbar {
   padding: 10px 20px;
   border-radius: 10px;
   border: solid #e6493a 2px;
-  font-family: 'Allura';
+  font-family: 'Allan';
   font-weight: bold;
   font-size: 18px;
   color: #e6493a;
@@ -154,8 +148,9 @@ h3, .navbar {
 }
 
 #footer {
+  margin-top: -110px;
   padding: 10px 10%;
-  background: rgba(0, 0, 0, 0.8);
+  background: url('./images/footer_bg.png');
   width: 100%;
   color: #ffffff;
   text-align: center;
