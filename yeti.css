@@ -195,10 +195,10 @@ h3, .navbar {
     height: 3px;
     background-color: #e6493a;
     content: "";
-    -webkit-transition: width 0.5s;
-    -moz-transition: width 0.5s;
-    -o-transition: width 0.5s;
-    transition: width 0.5s;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
   }
 
   .navbar li:hover a {
@@ -275,8 +275,8 @@ h3, .navbar {
   top: 10%;
   border-bottom: 1px solid #FFF;
   border-top: 1px solid #FFF;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
@@ -293,8 +293,8 @@ h3, .navbar {
 .hovereffect img {
   display: block;
   position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .hovereffect:hover img {
@@ -313,8 +313,8 @@ h3, .navbar {
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
   -webkit-transform: translate3d(0,-100%,0);
   transform: translate3d(0,-100%,0);
 }
@@ -324,8 +324,8 @@ h3, .navbar {
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
   -webkit-transform: translate3d(0,100%,0);
   transform: translate3d(0,100%,0);
 }
